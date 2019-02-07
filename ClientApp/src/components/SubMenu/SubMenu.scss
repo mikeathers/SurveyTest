@@ -1,0 +1,31 @@
+.submenu {
+  width: 200px;
+  min-height: 100vh;
+  background-color: #43425D;
+  
+
+  a { 
+    text-decoration: none;
+  }
+
+  h4 {
+    color: rgb(161, 161, 161);
+  }
+  
+  .search {
+    color: rgb(143, 143, 143);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-left: 1px solid rgba(238, 238, 238, 0.05);
+
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-size: .8rem;
+      padding: 1rem;
+    }
+  }
+}

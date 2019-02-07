@@ -1,0 +1,40 @@
+.parentitem {  
+  min-height: 90px;
+  // border-bottom: 1px solid rgba(204, 204, 204, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(161, 161, 161);
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:hover > p{
+    color: #fff;
+    
+  }
+  
+
+  p {
+    color: rgb(161, 161, 161);
+  }
+
+  i {
+    font-size: 2rem;
+  }
+}
+
+.parentitem-selected {
+  // background-color: #A3A0FB;
+  // background-color: rgb(222, 113, 255);
+  background-color: #FF6565;
+  background-color: #EA5A5A;
+  color: #fff;
+
+  p {
+    color: #fff;
+  }
+}
